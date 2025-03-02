@@ -1,53 +1,26 @@
-# Sentiment-Analysis-Application
-A sentiment analysis application using Flask, VADER, and SQLite with a web-based front-end.
-Project Title
-Sentiment Analysis Application
+Main Application Files:
 
-Overview
-A sentiment analysis application built using Flask, VADER SentimentIntensityAnalyzer, and SQLite. The application features a web-based front-end interface with interactive 3D glowing buttons for user interaction.
+app.py: The main Python file that contains your Flask application and the sentiment analysis logic.
 
-Key Features
-Sentiment Analysis: Analyze text to determine if the sentiment is positive, negative, or neutral.
+requirements.txt: A file listing all the dependencies required for your project. You can generate this file using the pip freeze > requirements.txt command.
 
-SQLite Database: Store and retrieve sentiment analysis results.
+README.md: A detailed README file with an overview of your project, setup instructions, usage examples, and any other relevant information.
 
-Web Interface: User-friendly front-end interface created with HTML, CSS, and JavaScript.
+Templates:
 
-Interactive Buttons: 3D glowing buttons for an enhanced user experience.
+templates/: A directory containing your HTML templates.
 
-Technologies Used
-Backend: Flask, SQLite, VADER SentimentIntensityAnalyzer
+index.html: The main HTML file for the user interface.
 
-Frontend: HTML, CSS, JavaScript
+Static Files:
 
-Setup and Installation
-Clone the repository:
+static/: A directory containing your static files such as CSS and JavaScript.
 
-bash
-git clone https://github.com/yourusername/Sentiment-Analysis-App.git
-Navigate to the project directory:
+style.css: The CSS file for styling your web interface.
 
-bash
-cd Sentiment-Analysis-App
-Install the required dependencies:
+script.js: The JavaScript file for handling user interactions on the front end.
 
-bash
-pip install -r requirements.txt
-Run the application:
+Database:
 
-bash
-python app.py
+sentiments.db: The SQLite database file where you store the sentiment analysis results (optional to include if you want to share an initial dataset).
 
-Usage
-Enter text into the input field and click "Analyze" to determine the sentiment.
-View saved sentiments by clicking "Show Saved Sentiments".
-Delete all stored sentiments by clicking "Delete All Sentiments".
-
-Contributing
-Fork the repository.
-Create a new branch.
-Make your changes.
-Submit a pull request.
-
-License
-This project is licensed under the MIT License 
